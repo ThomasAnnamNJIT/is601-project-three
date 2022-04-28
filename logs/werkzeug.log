@@ -1,0 +1,718 @@
+2022-04-25 23:25:27,287 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:25:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2022-04-25 23:25:27,502 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-25 23:25:27,510 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-25 23:25:27,671 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:25:27] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-25 23:26:13,451 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:26:13] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-25 23:26:13,663 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:26:13] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-25 23:26:13,664 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:26:13] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-25 23:26:13,688 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:26:13] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-25 23:26:58,782 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-25 23:28:09,254 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:09] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-25 23:28:09,363 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-25 23:28:09,366 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-25 23:28:09,391 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:09] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-25 23:28:26,860 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:26] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-25 23:28:26,934 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-25 23:28:26,936 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-25 23:28:26,968 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-25 23:28:56,895 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:56] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-25 23:28:56,966 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-25 23:28:56,968 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-25 23:28:56,996 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:56] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-25 23:28:57,780 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:57] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-25 23:28:57,871 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-25 23:28:57,874 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-25 23:28:57,909 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:28:57] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-25 23:29:30,546 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:29:30] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:29:30,922 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:29:30] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:00,555 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:00] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:00,642 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:00] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:01,305 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:01] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:01,421 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:01] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:25,839 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:25] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:25,924 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:25] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:26,457 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:26] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:26,535 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:26] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:45,355 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:45] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:45,430 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:45] "[35m[1mGET /auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:30:45,990 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:45] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:30:46,065 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:30:46] "[35m[1mGET /auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:31:01,834 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:01] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:31:01,936 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:01] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:31:02,471 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:02] "GET /login HTTP/1.1" 200 -
+2022-04-25 23:31:02,538 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:02] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-25 23:31:16,221 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:16] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-25 23:31:20,673 [INFO] werkzeug: 172.18.0.1 - - [25/Apr/2022 23:31:20] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:01:54,679 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:01:54] "GET /register HTTP/1.1" 200 -
+2022-04-26 01:02:00,761 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:02:00] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-04-26 01:02:00,845 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:02:00] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-26 01:02:00,850 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:02:00] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-26 01:02:00,879 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:02:00] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-26 01:02:46,228 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-26 01:03:42,259 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:03:42] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-04-26 01:03:42,351 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:03:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:03:42,356 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:03:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:03:42,401 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:03:42] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:04:33,674 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:04:39,658 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:39] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-04-26 01:04:39,781 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:39] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:04:39,790 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:39] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:04:39,879 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:39] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:04:48,375 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:48] "GET /register HTTP/1.1" 200 -
+2022-04-26 01:04:56,077 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:56] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-26 01:04:56,101 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:56] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:04:56,220 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:04:56] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:05:02,251 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:05:02] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:07:00,496 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:00] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:07:03,130 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:03] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:07:03,277 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:03] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:07:09,196 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:09] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:07:57,480 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:57] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:07:59,158 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:59] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:07:59,282 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:07:59] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:08:06,083 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:08:06] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:09:00,731 [INFO] werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-26 01:09:05,355 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:09:05] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:09:05,531 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:09:05] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:09:10,393 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:09:10] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:11:17,104 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:17] "[31m[1mPOST /login HTTP/1.1[0m" 400 -
+2022-04-26 01:11:18,760 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:18] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:11:24,915 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:24] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-04-26 01:11:24,987 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:11:24,989 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:11:25,021 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:11:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:12:38,131 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:12:43,578 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:12:43] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 01:12:43,634 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:12:43] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 01:13:26,141 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:13:26] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:13:26,274 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:13:26] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:13:34,284 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:13:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 01:13:34,306 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:13:34] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 01:14:03,544 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:03] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 01:14:06,955 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:06] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:14:07,070 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:07] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:14:45,843 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:14:51,360 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:51] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:14:51,505 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:51] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:14:52,098 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:52] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:14:52,184 [INFO] werkzeug: 172.18.0.1 - - [26/Apr/2022 01:14:52] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:15:02,348 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:16:17,689 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:16:17] "GET / HTTP/1.1" 200 -
+2022-04-26 01:16:21,471 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:16:21] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:16:21,589 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:16:21] "[35m[1mGET /app/auth/static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:17:13,221 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:17:13] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:17:13,319 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:17:13] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:17:13,864 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:17:13] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:17:13,961 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:17:13] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:18:00,340 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:00] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:18:00,434 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:00] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:18:00,975 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:00] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:18:01,079 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:01] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:18:22,864 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:18:34,451 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:34] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-26 01:18:34,505 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:18:34,508 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:18:34,532 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:18:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:18:40,336 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:19:01,067 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:01] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-26 01:19:01,120 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:19:01,123 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:19:01,163 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:01] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,126 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-26 01:19:02,182 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,187 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,224 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,859 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2022-04-26 01:19:02,905 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,909 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:19:02,935 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:02] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:19:27,131 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:27] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:19:27,226 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:19:27] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:20:46,399 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:46] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:20:46,492 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:46] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:20:47,052 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:47] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:20:47,151 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:47] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:20:48,327 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:48] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:20:48,388 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:48] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:20:55,142 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:55] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:20:55,226 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:55] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:20:55,702 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:20:55] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 01:21:08,330 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:21:08] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:21:08,473 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:21:08] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:21:08,567 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:21:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 01:21:53,804 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:21:53] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:21:53,908 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:21:53] "[35m[1mGET /static/images/SongTitle.png HTTP/1.1[0m" 500 -
+2022-04-26 01:22:03,198 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:22:03] "GET /login HTTP/1.1" 200 -
+2022-04-26 01:22:20,831 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:22:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 01:22:20,860 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:22:20] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 01:29:06,183 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:37:10,389 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:37:10] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2022-04-26 01:37:32,492 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:37:32] "[31m[1mPOST /upload HTTP/1.1[0m" 400 -
+2022-04-26 01:37:48,275 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:37:48] "[31m[1mGET /upload HTTP/1.1[0m" 405 -
+2022-04-26 01:37:55,536 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:38:02,288 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:02] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:38:02,401 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:02] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-26 01:38:02,405 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:02] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-26 01:38:02,457 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:02] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-26 01:38:16,537 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:38:19,313 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:19] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:38:19,389 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:19] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:38:19,397 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:19] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:38:19,418 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:38:19] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:38:25,343 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:41:00,891 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:41:00] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:41:00,983 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:41:00] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:41:00,986 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:41:00] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:41:01,083 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:41:01] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:41:07,807 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:41:15,032 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:41:15] "GET /upload HTTP/1.1" 200 -
+2022-04-26 01:41:46,071 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:43:29,444 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:29] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:43:29,563 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:29] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:43:29,571 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:29] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:43:29,650 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:29] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:43:48,907 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:43:50,700 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:50] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:43:50,771 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:43:50,776 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:43:50,818 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:43:50] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:44:32,335 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:44:59,430 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:44:59] "GET /upload HTTP/1.1" 200 -
+2022-04-26 01:45:34,347 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 01:47:34,774 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:47:34] "GET /upload HTTP/1.1" 200 -
+2022-04-26 01:47:43,516 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:47:43] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 01:47:43,637 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:47:43] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 01:47:43,654 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:47:43] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 01:47:43,704 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 01:47:43] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 01:58:43,379 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/__init__.py', reloading
+2022-04-26 02:05:46,231 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:05:46] "[35m[1mGET /upload HTTP/1.1[0m" 500 -
+2022-04-26 02:05:46,371 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:05:46] "[36mGET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 02:05:46,374 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:05:46] "[36mGET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 02:05:46,435 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:05:46] "[36mGET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 02:06:38,337 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 02:07:08,795 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:07:08] "GET /upload HTTP/1.1" 200 -
+2022-04-26 02:13:40,100 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 02:14:53,237 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:14:53] "GET /upload HTTP/1.1" 200 -
+2022-04-26 02:15:37,919 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 02:24:09,419 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 02:24:09] "GET /upload HTTP/1.1" 200 -
+2022-04-26 02:24:20,659 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:07:56,236 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:07:56] "GET / HTTP/1.1" 200 -
+2022-04-26 09:10:13,812 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:11:29,400 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:29] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 09:11:29,537 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:29] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-26 09:11:29,547 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:29] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-26 09:11:29,613 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:29] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-26 09:11:42,317 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:11:49,249 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:49] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 09:11:49,308 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 09:11:49,310 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 09:11:49,342 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:11:49] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 09:12:09,411 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:12:13,810 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:13] "GET / HTTP/1.1" 200 -
+2022-04-26 09:12:15,296 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:15] "GET /login HTTP/1.1" 200 -
+2022-04-26 09:12:20,167 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:20] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 09:12:20,231 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:20] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 09:12:20,327 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 09:12:20,330 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 09:12:20,369 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:20] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 09:12:53,860 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:12:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 09:13:17,054 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:13:17] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 09:13:17,108 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:13:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 09:13:17,110 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:13:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 09:13:17,147 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:13:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 09:14:27,495 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:15:15,403 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:15] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 09:15:30,126 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:30] "[31m[1mPOST /dashboard HTTP/1.1[0m" 405 -
+2022-04-26 09:15:30,133 [ERROR] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:30] code 400, message Bad request syntax ('-----------------------------148429466639859466381159387311')
+2022-04-26 09:15:30,137 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:30] "[35m[1mNone /dashboard HTTP/0.9[0m" HTTPStatus.BAD_REQUEST -
+2022-04-26 09:15:38,694 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:15:43,296 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:43] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:15:53,983 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:15:53] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:18:53,648 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:27:41,642 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:27:41] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:27:41,886 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:27:41] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 09:28:06,906 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:28:06] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:29:26,409 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:29:26] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:29:39,426 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:29:39] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:31:09,570 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:31:09] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:31:40,377 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:31:40] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:31:48,671 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:31:48] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:32:20,673 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:32:47,932 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:32:47] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:33:11,880 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:33:21,472 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:33:21] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:33:28,561 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:33:28] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:34:54,244 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/forms/__init__.py', reloading
+2022-04-26 09:35:40,972 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:35:40] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:41:48,909 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/forms/__init__.py', reloading
+2022-04-26 09:42:36,381 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:42:36] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:43:50,496 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:43:50] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:45:38,963 [INFO] werkzeug:  * Detected change in '/home/myuser/app/cli/__init__.py', reloading
+2022-04-26 09:49:34,524 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:49:34] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:50:31,582 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:50:31] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:52:04,926 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:52:04] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:55:14,841 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:59:09,687 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:59:09] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 09:59:35,218 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 09:59:53,651 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 09:59:53] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 10:01:14,827 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:01:14] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 10:01:52,620 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:02:01,443 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:02:01] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 10:02:30,056 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:16:42,945 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:16:42] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:17:17,373 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:17:17] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:17:17,464 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:17:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:17:17,466 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:17:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:17:17,509 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:17:17] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:18:23,862 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:18:31,351 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:18:31] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:18:32,766 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:18:32] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:18:32,876 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:18:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:18:32,878 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:18:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:18:32,921 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:18:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:19:40,404 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:20:34,455 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:34] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:20:34,548 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:20:34,551 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:20:34,590 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:34] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:20:37,267 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:37] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:20:43,242 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:43] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:20:43,319 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:20:43,320 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:20:43,351 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:20:43] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:21:04,198 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:21:10,779 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:21:10] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:21:46,808 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:21:46] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 10:22:12,341 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:27:32,811 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:32] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:27:32,938 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:27:32,940 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:27:32,982 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:32] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:27:43,959 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:43] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:27:51,213 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:51] "[35m[1mPOST /dashboard HTTP/1.1[0m" 500 -
+2022-04-26 10:27:51,293 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 10:27:51,297 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 10:27:51,326 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:27:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 10:28:56,791 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 10:29:02,107 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:29:02] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 10:29:08,035 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 10:29:08] "POST /dashboard HTTP/1.1" 200 -
+2022-04-26 10:30:00,695 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 22:26:09,126 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:26:09] "[31m[1mPOST /dashboard HTTP/1.1[0m" 400 -
+2022-04-26 22:26:13,655 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:26:13] "GET / HTTP/1.1" 200 -
+2022-04-26 22:26:14,942 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:26:14] "GET /login HTTP/1.1" 200 -
+2022-04-26 22:26:22,865 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:26:22] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 22:26:22,975 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:26:22] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:28:00,771 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:28:00] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:28:01,113 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:28:01] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:28:13,552 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:28:13] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:30:39,607 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:30:39] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:30:54,200 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:30:54] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:34:42,011 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:34:42] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:34:43,133 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:34:43] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:34:55,412 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:34:55] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:34:56,150 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:34:56] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:35:48,588 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:35:48] "[31m[1mPOST /dashboard HTTP/1.1[0m" 400 -
+2022-04-26 22:36:52,547 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:36:52] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:36:52,560 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:36:52] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:39:54,378 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:39:54] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:40:23,521 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:40:23] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:40:45,971 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:40:45] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:42:52,816 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:42:52] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:43:08,818 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:08] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:43:16,253 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:16] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:43:36,943 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:36] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:43:37,928 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:37] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 22:43:58,561 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:58] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:43:59,603 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:43:59] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:44:23,870 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:44:23] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:44:33,585 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:44:33] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:44:38,687 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:44:38] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:45:59,619 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:45:59] "GET / HTTP/1.1" 200 -
+2022-04-26 22:46:00,306 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:00] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 22:46:01,166 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:01] "GET /login HTTP/1.1" 200 -
+2022-04-26 22:46:09,168 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:09] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 22:46:09,358 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:09] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:46:29,717 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:29] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:46:30,441 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:30] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 22:46:46,648 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:46] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:46:53,373 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:46:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:07,825 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:07] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:08,182 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 22:47:20,525 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:20] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:30,904 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:30] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:31,382 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:31] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:40,564 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:40] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:48,208 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:48] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 22:47:53,846 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 22:47:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:22:25,497 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 23:22:25] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:23:02,948 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 23:23:02] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:23:12,120 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 23:23:12] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:23:17,000 [INFO] werkzeug: 172.19.0.1 - - [26/Apr/2022 23:23:17] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:33:21,395 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:21] "GET / HTTP/1.1" 200 -
+2022-04-26 23:33:23,736 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:23] "GET /login HTTP/1.1" 200 -
+2022-04-26 23:33:24,736 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:24] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 23:33:30,637 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:30] "GET /register HTTP/1.1" 200 -
+2022-04-26 23:33:36,751 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:36] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2022-04-26 23:33:37,484 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:37] "[36mGET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-26 23:33:37,487 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:37] "[36mGET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-26 23:33:37,855 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:33:37] "[36mGET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-26 23:34:01,465 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:34:01] "GET /register HTTP/1.1" 200 -
+2022-04-26 23:34:04,650 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:34:04] "GET /login HTTP/1.1" 200 -
+2022-04-26 23:34:27,369 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:34:27] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 23:34:27,548 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:34:27] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:42:35,512 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:42:35] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:42:36,428 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:42:36] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-26 23:43:39,369 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:43:39] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:43:49,365 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:43:49] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:44:47,900 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:44:47] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:44:57,075 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:44:57] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:45:06,434 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:45:06] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:45:21,797 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:45:21] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:45:44,152 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:45:44] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:46:15,100 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:46:15] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:47:52,769 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:47:52] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:47:59,190 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:47:59] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:55:21,483 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-26 23:57:06,250 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:57:06] "GET /dashboard HTTP/1.1" 200 -
+2022-04-26 23:57:09,931 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:57:09] "GET /login HTTP/1.1" 200 -
+2022-04-26 23:58:55,918 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:58:55] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-26 23:58:56,022 [INFO] werkzeug: 172.24.0.1 - - [26/Apr/2022 23:58:56] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 00:07:29,719 [INFO] werkzeug: 172.24.0.1 - - [27/Apr/2022 00:07:29] "POST /dashboard HTTP/1.1" 200 -
+2022-04-27 00:15:23,945 [INFO] werkzeug:  * Detected change in '/home/myuser/app/user/__init__.py', reloading
+2022-04-27 05:51:55,015 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:51:55] "GET / HTTP/1.1" 200 -
+2022-04-27 05:51:57,848 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:51:57] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:52:18,780 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:52:18] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:52:27,849 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:52:27] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:52:53,276 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:52:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 05:52:53,387 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:52:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 05:54:49,377 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 05:55:13,301 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:13] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 05:55:19,018 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:19] "GET / HTTP/1.1" 200 -
+2022-04-27 05:55:19,955 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:19] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:55:28,404 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:28] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-04-27 05:55:28,515 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 05:55:28,518 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 05:55:28,556 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:28] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 05:55:51,567 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 05:55:56,413 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:55:56] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:56:02,377 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:02] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 05:56:02,452 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:02] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 05:56:10,425 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 05:56:35,401 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:35] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:56:36,686 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:36] "GET /register HTTP/1.1" 200 -
+2022-04-27 05:56:43,571 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:43] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-27 05:56:43,609 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:56:43] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:57:26,759 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:57:26] "GET /register HTTP/1.1" 200 -
+2022-04-27 05:57:35,929 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:57:35] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-27 05:57:35,970 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:57:35] "GET /login HTTP/1.1" 200 -
+2022-04-27 05:57:58,376 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:57:58] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 05:57:58,438 [INFO] werkzeug: 172.26.0.1 - - [27/Apr/2022 05:57:58] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:26:22,672 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-27 06:29:25,544 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:25] "GET / HTTP/1.1" 200 -
+2022-04-27 06:29:27,695 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:27] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:29:33,993 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:33] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-04-27 06:29:34,087 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:34] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-27 06:29:34,096 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 06:29:34,151 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:34] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 06:29:37,650 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:37] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:29:39,699 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:39] "GET /register HTTP/1.1" 200 -
+2022-04-27 06:29:46,773 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:46] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-27 06:29:46,830 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:46] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:29:53,179 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 06:29:53,241 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:29:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:30:09,189 [INFO] werkzeug: 172.27.0.1 - - [27/Apr/2022 06:30:09] "POST /dashboard HTTP/1.1" 200 -
+2022-04-27 06:33:17,555 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-27 06:41:28,548 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:28] "GET / HTTP/1.1" 200 -
+2022-04-27 06:41:30,068 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:30] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:41:32,310 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:32] "GET /register HTTP/1.1" 200 -
+2022-04-27 06:41:39,915 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:39] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-27 06:41:39,928 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:39] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:41:49,072 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:49] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2022-04-27 06:41:49,093 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:49] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-27 06:41:49,094 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:49] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-27 06:41:49,112 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:41:49] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-27 06:42:24,198 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:24] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 06:42:24,274 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:24] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:42:46,491 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:46] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:42:47,495 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:47] "[32mGET /register HTTP/1.1[0m" 302 -
+2022-04-27 06:42:47,531 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:47] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:42:50,134 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:42:50] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:43:26,600 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 06:43:37,578 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:43:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 06:43:37,658 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:43:37] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:43:39,914 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:43:39] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:43:46,678 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:43:46] "GET / HTTP/1.1" 200 -
+2022-04-27 06:43:48,518 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:43:48] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:44:29,747 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:44:29] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:44:37,987 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:44:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 06:44:38,021 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:44:38] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 06:45:03,039 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:45:03] "POST /dashboard HTTP/1.1" 200 -
+2022-04-27 06:47:28,612 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 06:47:28] "GET /login HTTP/1.1" 200 -
+2022-04-27 06:48:46,361 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 09:46:52,736 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:46:52] "GET /login HTTP/1.1" 200 -
+2022-04-27 09:46:56,854 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:46:56] "GET / HTTP/1.1" 200 -
+2022-04-27 09:46:57,030 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:46:57] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 09:47:20,371 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:47:20] "GET /login HTTP/1.1" 200 -
+2022-04-27 09:47:34,595 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 09:48:16,688 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-27 09:48:16,740 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:16] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-04-27 09:48:17,144 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:17] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-27 09:48:34,805 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:34] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-27 09:48:34,837 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:34] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-04-27 09:48:53,660 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:53] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 09:48:53,748 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:53] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 09:48:56,241 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:48:56] "GET /login HTTP/1.1" 200 -
+2022-04-27 09:50:44,897 [INFO] werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-27 09:51:37,384 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:51:37] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 09:51:37,470 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:51:37] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 09:51:54,164 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 09:51:54] "GET /login HTTP/1.1" 200 -
+2022-04-27 09:56:46,814 [INFO] werkzeug:  * Detected change in '/home/myuser/app/db/models/__init__.py', reloading
+2022-04-27 10:04:37,195 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:04:37] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:04:40,934 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:04:40] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-27 10:04:41,087 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:04:41] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-27 10:04:41,092 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:04:41] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 10:04:41,134 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:04:41] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-27 10:05:01,787 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:05:05,880 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:05] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-27 10:05:05,956 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-27 10:05:05,958 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-27 10:05:05,986 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-27 10:05:14,519 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:05:17,896 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:17] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:05:20,450 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:20] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:05:25,065 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:05:25] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:05:55,167 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:06:21,987 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:06:21] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:06:28,387 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:06:28] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:06:28,453 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:06:28] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:06:47,768 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:06:52,205 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:06:52] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:06:54,693 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:06:54] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:07:01,091 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:07:01] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:07:01,145 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:07:01] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:07:20,328 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:09:10,347 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:09:10] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:09:16,882 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:09:16] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:09:16,933 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:09:16] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-27 10:09:16,983 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:09:16] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:11:58,646 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:12:26,287 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:12:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:12:26,324 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:12:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-27 10:12:26,367 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:12:26] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:13:15,284 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:13:15] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:13:15,319 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:13:15] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-27 10:13:15,388 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:13:15] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:13:44,434 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:14:31,373 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:14:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:14:31,440 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:14:31] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:15:22,118 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:22] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:15:32,116 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:32] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:15:32,169 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:32] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:15:41,688 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:15:49,041 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:49] "GET /login HTTP/1.1" 200 -
+2022-04-27 10:15:54,741 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:54] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-27 10:15:54,856 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:15:54] "GET /dashboard HTTP/1.1" 200 -
+2022-04-27 10:16:12,225 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 10:29:19,345 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:29:19] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-04-27 10:29:23,390 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:29:23] "GET / HTTP/1.1" 200 -
+2022-04-27 10:32:09,419 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:32:09] "GET / HTTP/1.1" 200 -
+2022-04-27 10:33:14,207 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:33:14] "GET / HTTP/1.1" 200 -
+2022-04-27 10:33:15,482 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:33:15] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:28,468 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:28] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:28,978 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:28] "[35m[1mGET /css/datatables/datatables.css HTTP/1.1[0m" 500 -
+2022-04-27 10:34:28,985 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:28] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:29,108 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:29] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:37,756 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:37] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:37,894 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:37] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:37,913 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:37] "[35m[1mGET /css/datatables/datatables.css HTTP/1.1[0m" 500 -
+2022-04-27 10:34:37,985 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:37] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:38,968 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:38] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:39,195 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:39,203 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /css/datatables/datatables.css HTTP/1.1[0m" 500 -
+2022-04-27 10:34:39,259 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:39,774 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:39,899 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:39,903 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /css/datatables/datatables.css HTTP/1.1[0m" 500 -
+2022-04-27 10:34:39,982 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:39] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:40,432 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:40] "GET / HTTP/1.1" 200 -
+2022-04-27 10:34:40,554 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:40] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:34:40,558 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:40] "[35m[1mGET /css/datatables/datatables.css HTTP/1.1[0m" 500 -
+2022-04-27 10:34:40,629 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:34:40] "[35m[1mGET /js/datatables/datatables.js HTTP/1.1[0m" 500 -
+2022-04-27 10:36:29,303 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 10:36:29] "GET / HTTP/1.1" 200 -
+2022-04-27 22:04:13,071 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:04:13] "GET / HTTP/1.1" 200 -
+2022-04-27 22:05:26,236 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:05:26] "GET / HTTP/1.1" 200 -
+2022-04-27 22:08:08,227 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:08:08] "GET / HTTP/1.1" 200 -
+2022-04-27 22:08:08,541 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:08:08] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-27 22:08:13,763 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:08:13] "GET / HTTP/1.1" 200 -
+2022-04-27 22:08:32,393 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:08:32] "GET / HTTP/1.1" 200 -
+2022-04-27 22:13:04,249 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:13:04] "GET / HTTP/1.1" 200 -
+2022-04-27 22:13:04,773 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:13:04] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-27 22:14:15,187 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:14:15] "GET / HTTP/1.1" 200 -
+2022-04-27 22:35:00,938 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:35:00] "GET / HTTP/1.1" 200 -
+2022-04-27 22:35:01,310 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:35:01] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-27 22:35:28,766 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:35:28] "GET / HTTP/1.1" 200 -
+2022-04-27 22:39:03,767 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:39:03] "GET / HTTP/1.1" 200 -
+2022-04-27 22:39:27,291 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:39:27] "GET / HTTP/1.1" 200 -
+2022-04-27 22:41:54,752 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:41:54] "GET / HTTP/1.1" 200 -
+2022-04-27 22:42:12,257 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:42:12] "GET / HTTP/1.1" 200 -
+2022-04-27 22:42:24,197 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:42:24] "GET / HTTP/1.1" 200 -
+2022-04-27 22:43:05,383 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:43:05] "GET / HTTP/1.1" 200 -
+2022-04-27 22:43:46,014 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:43:46] "GET / HTTP/1.1" 200 -
+2022-04-27 22:44:02,674 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:44:02] "GET / HTTP/1.1" 200 -
+2022-04-27 22:46:10,069 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:46:10] "GET / HTTP/1.1" 200 -
+2022-04-27 22:46:19,875 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:46:19] "GET / HTTP/1.1" 200 -
+2022-04-27 22:49:59,437 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:49:59] "GET / HTTP/1.1" 200 -
+2022-04-27 22:50:30,851 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:50:30] "GET / HTTP/1.1" 200 -
+2022-04-27 22:52:12,172 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:52:12] "GET / HTTP/1.1" 200 -
+2022-04-27 22:52:29,494 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:52:29] "GET / HTTP/1.1" 200 -
+2022-04-27 22:52:42,401 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:52:42] "GET / HTTP/1.1" 200 -
+2022-04-27 22:53:40,473 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:53:40] "GET / HTTP/1.1" 200 -
+2022-04-27 22:53:59,457 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:53:59] "GET / HTTP/1.1" 200 -
+2022-04-27 22:57:02,361 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 22:57:02] "GET / HTTP/1.1" 200 -
+2022-04-27 23:02:41,785 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:02:41] "GET / HTTP/1.1" 200 -
+2022-04-27 23:03:00,062 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:03:00] "GET / HTTP/1.1" 200 -
+2022-04-27 23:03:41,767 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:03:41] "GET / HTTP/1.1" 200 -
+2022-04-27 23:03:42,707 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:03:42] "GET / HTTP/1.1" 200 -
+2022-04-27 23:04:15,745 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:04:15] "GET / HTTP/1.1" 200 -
+2022-04-27 23:04:34,656 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:04:34] "GET / HTTP/1.1" 200 -
+2022-04-27 23:05:01,380 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:05:01] "GET / HTTP/1.1" 200 -
+2022-04-27 23:06:13,286 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:06:13] "GET / HTTP/1.1" 200 -
+2022-04-27 23:06:27,284 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:06:27] "GET / HTTP/1.1" 200 -
+2022-04-27 23:07:03,706 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:07:03] "GET / HTTP/1.1" 200 -
+2022-04-27 23:07:16,377 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:07:16] "GET / HTTP/1.1" 200 -
+2022-04-27 23:08:06,247 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:08:06] "GET / HTTP/1.1" 200 -
+2022-04-27 23:09:10,551 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 23:15:33,092 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:15:33] "GET / HTTP/1.1" 200 -
+2022-04-27 23:15:36,756 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:15:36] "GET / HTTP/1.1" 200 -
+2022-04-27 23:15:57,853 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:15:57] "GET / HTTP/1.1" 200 -
+2022-04-27 23:15:58,546 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:15:58] "GET / HTTP/1.1" 200 -
+2022-04-27 23:16:14,006 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:16:14] "GET / HTTP/1.1" 200 -
+2022-04-27 23:16:14,968 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:16:14] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:16:45,364 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:16:45] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:17:04,000 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:17:04] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:17:27,047 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:17:27] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:17:49,076 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:17:49] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:18:54,177 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:18:54] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:19:19,832 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:19:19] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:19:44,337 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:19:44] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:22:13,831 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:22:13] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:22:53,844 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:22:53] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:25:33,194 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:25:33] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:26:40,059 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:26:40] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:27:27,488 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:27:27] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:29:02,149 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:29:02] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:29:03,298 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:29:03] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:33:16,860 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:33:16] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:34:13,807 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:34:13] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:38:51,418 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:38:51] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:39:12,840 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:39:12] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:42:32,333 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:42:32] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:42:44,561 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:42:44] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:42:45,426 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:42:45] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:42:59,055 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:42:59] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:43:08,581 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:43:08] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:44:27,565 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:44:27] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:44:29,047 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:44:29] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:47:08,376 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:47:08] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:48:09,493 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:48:09] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:48:58,261 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 23:49:33,505 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:49:33] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:49:58,018 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:49:58] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:50:24,496 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-27 23:50:27,667 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:50:27] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:51:07,983 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:51:07] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:51:31,443 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:51:31] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:56:55,997 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:56:55] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:57:41,737 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:57:41] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:57:43,063 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:57:43] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:59:09,344 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:59:09] "GET /admin HTTP/1.1" 200 -
+2022-04-27 23:59:20,121 [INFO] werkzeug: 172.28.0.1 - - [27/Apr/2022 23:59:20] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:00:28,853 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:00:28] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:00:59,365 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:00:59] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:01:15,744 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:01:15] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:02:28,542 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:02:28] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:03:40,990 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:03:40] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:04:27,214 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:04:27] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:04:35,624 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:04:35] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:04:44,623 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:04:44] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:05:14,269 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:05:14] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:05:27,464 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:05:27] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:05:40,940 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:05:40] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:05:47,855 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:05:47] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:06:03,745 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:06:03] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:06:16,503 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:06:16] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:06:31,060 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:06:31] "GET /admin HTTP/1.1" 200 -
+2022-04-28 00:07:01,359 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 00:07:01] "GET /admin HTTP/1.1" 200 -
+2022-04-28 01:52:09,711 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:52:09] "GET /admin HTTP/1.1" 200 -
+2022-04-28 01:52:10,257 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:52:10] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-28 01:55:55,563 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:55:55] "GET /admin HTTP/1.1" 200 -
+2022-04-28 01:55:56,768 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:55:56] "GET /admin HTTP/1.1" 200 -
+2022-04-28 01:55:58,191 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:55:58] "GET /admin HTTP/1.1" 200 -
+2022-04-28 01:56:00,984 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 01:56:00] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:05:23,067 [INFO] werkzeug:  * Detected change in '/home/myuser/app/admin/__init__.py', reloading
+2022-04-28 02:15:35,280 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 02:15:35] "GET / HTTP/1.1" 200 -
+2022-04-28 02:15:55,376 [INFO] werkzeug:  * Detected change in '/home/myuser/app/__init__.py', reloading
+2022-04-28 02:16:59,388 [INFO] werkzeug: 172.28.0.1 - - [28/Apr/2022 02:16:59] "GET / HTTP/1.1" 200 -
+2022-04-28 02:23:45,237 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:23:45] "GET / HTTP/1.1" 200 -
+2022-04-28 02:23:50,918 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:23:50] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:24:25,667 [INFO] werkzeug:  * Detected change in '/home/myuser/app/auth/__init__.py', reloading
+2022-04-28 02:24:36,251 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:24:36] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:24:37,147 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:24:37] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:24:38,458 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:24:38] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:25:17,434 [INFO] werkzeug:  * Detected change in '/home/myuser/app/admin/__init__.py', reloading
+2022-04-28 02:25:21,031 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:21] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:25:28,113 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:28] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-04-28 02:25:28,172 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:28] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-04-28 02:25:42,758 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:42] "GET /register HTTP/1.1" 200 -
+2022-04-28 02:25:44,071 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:44] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:25:45,041 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:45] "GET /register HTTP/1.1" 200 -
+2022-04-28 02:25:51,597 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:51] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-04-28 02:25:51,605 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:51] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:25:56,945 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:56] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-28 02:25:57,015 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:25:57] "GET /dashboard HTTP/1.1" 200 -
+2022-04-28 02:26:02,517 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:02] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:26:50,713 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:50] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:26:51,593 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:51] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:26:52,661 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:52] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:26:57,943 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-28 02:26:58,013 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:58] "GET /dashboard HTTP/1.1" 200 -
+2022-04-28 02:26:59,175 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:26:59] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:27:09,258 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:09] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:27:10,107 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:10] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:27:26,471 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:26] "GET / HTTP/1.1" 200 -
+2022-04-28 02:27:28,084 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:28] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:27:33,499 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:33] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-28 02:27:33,608 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:33] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2022-04-28 02:27:33,709 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:33] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-28 02:27:33,710 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:33] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-28 02:27:33,741 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:33] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-28 02:27:43,995 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:43] "GET /dashboard HTTP/1.1" 200 -
+2022-04-28 02:27:46,026 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:27:46] "GET /adminsss HTTP/1.1" 200 -
+2022-04-28 02:28:21,906 [INFO] werkzeug:  * Detected change in '/home/myuser/app/admin/__init__.py', reloading
+2022-04-28 02:28:24,357 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:28:24] "[35m[1mGET /adminsss HTTP/1.1[0m" 500 -
+2022-04-28 02:28:24,559 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:28:24] "GET /adminsss?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-04-28 02:28:24,561 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:28:24] "GET /adminsss?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-04-28 02:28:24,654 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:28:24] "GET /adminsss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-04-28 02:29:30,778 [INFO] werkzeug:  * Detected change in '/home/myuser/app/admin/__init__.py', reloading
+2022-04-28 02:30:05,839 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:05] "[35m[1mGET /adminsss HTTP/1.1[0m" 500 -
+2022-04-28 02:30:05,920 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:05] "[36mGET /adminsss?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2022-04-28 02:30:05,929 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:05] "[36mGET /adminsss?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2022-04-28 02:30:05,960 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:05] "[36mGET /adminsss?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2022-04-28 02:30:10,475 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:10] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:30:53,311 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:30:53] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:33:31,126 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:33:31] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-04-28 02:33:31,189 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:33:31] "GET /dashboard HTTP/1.1" 200 -
+2022-04-28 02:33:42,788 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:33:42] "POST /dashboard HTTP/1.1" 200 -
+2022-04-28 02:33:45,911 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:33:45] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:37:22,586 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:37:22] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:37:26,850 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:37:26] "GET /login HTTP/1.1" 200 -
+2022-04-28 02:39:50,640 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 02:39:50] "GET /admin HTTP/1.1" 200 -
+2022-04-28 02:41:32,080 [INFO] werkzeug:  * Detected change in '/home/myuser/app/user/__init__.py', reloading
+2022-04-28 07:05:38,198 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:05:38] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:05:52,752 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:05:52] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:07:15,058 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:07:15] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:07:16,533 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:07:16] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:07:51,435 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:07:51] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:08:33,530 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:08:33] "GET /admin HTTP/1.1" 200 -
+2022-04-28 07:08:33,959 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:08:33] "[35m[1mGET /favicon.ico HTTP/1.1[0m" 500 -
+2022-04-28 07:08:56,654 [INFO] werkzeug: 172.29.0.1 - - [28/Apr/2022 07:08:56] "GET /admin HTTP/1.1" 200 -

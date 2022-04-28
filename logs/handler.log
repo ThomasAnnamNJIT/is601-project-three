@@ -1,0 +1,12 @@
+2022-04-25 23:31:16,218 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:05:02,246 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:07:00,489 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:07:09,190 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:07:57,473 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:08:06,078 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:09:10,390 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:11:17,097 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:37:10,379 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 01:37:32,487 [INFO] flask_wtf.csrf: The CSRF token is missing.
+2022-04-26 22:26:09,086 [INFO] flask_wtf.csrf: The CSRF token has expired.
+2022-04-26 22:35:48,575 [INFO] flask_wtf.csrf: The CSRF token has expired.
