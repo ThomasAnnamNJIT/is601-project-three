@@ -40,6 +40,63 @@
     </div>
 </nav>
 <div class="container-fluid">
+    <script type="text/javascript">
+        $(function () {
+            $(".addModal").click(function () {
+                $("#modalAdd").modal("show");
+            });
+            $(".closeAddModal").click(function () {
+                $("#modalAdd").modal("toggle");
+            });
+            $(".saveAddModal").click(function () {
+                $("#modalAdd").modal("toggle");
+            });
+        });
+    </script>
+    <button type="button" class="btn btn-danger addModal float-end me-5" data-toggle="modal"
+            data-target="#modalAdd">
+        Add User
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalAdd" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <form method="POST" enctype="application/x-www-form-urlencoded"
+                  action="{{ url_for("admin.create") }}">
+                {{ add_form.hidden_tag() }}
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">User Details</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Username</label>
+                            {{ add_form.username(
+                        class="form-control") }}
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+                            {{ add_form.password(
+                        class="form-control") }}
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">About</label>
+                            {{ add_form.about(
+                        class="form-control", rows="10") }}
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-info closeAddModal"
+                                data-dismiss="modal">Close
+                        </button>
+                        {{ add_form.submit(class="btn btn-success") }}
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
     <table class="table table-hover">
         <thead>
         <tr>
@@ -144,39 +201,34 @@
                          aria-labelledby="exampleModalLabel"
                          aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Delete
-                                        Confirmation</h5>
-                                </div>
-                                <div class="modal-body">
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Username</label>
-                                        <input type="text" class="form-control" placeholder="Username"
-                                               aria-label="Username"
-                                               aria-describedby="basic-addon1"
-                                               value="{{ result["username"] }}" disabled>
+                            <form method="POST" enctype="application/x-www-form-urlencoded"
+                                  action="{{ url_for("admin.delete") }}">
+                                {{ delete_form.hidden_tag() }}
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title w-100 text-center" id="exampleModalLabel">Delete
+                                            Confirmation</h5>
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">Password</label>
-                                        <input type="password" class="form-control" placeholder="Password"
-                                               aria-label="Recipient's username" aria-describedby="basic-addon2"
-                                               value="{{ result["password"] }}" disabled>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Username</label>
+                                            {{ delete_form.username(
+                                              class="form-control",
+                                              value=result["username"]) }}
+                                        </div>
                                     </div>
-                                    <div class="mb-3">
-                                        <label for="exampleFormControlTextarea1" class="form-label">About</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1"
-                                                  rows="10" disabled>{{ result["about"] }}</textarea>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-info close{{ result["id"] }}delete"
+                                                data-dismiss="modal">Close
+                                        </button>
+                                        {% set lol = result["id"]|string %}
+                                        {% set another = "close"+lol+"delete" %}
+                                        {{ delete_form.confirm(type="submit",
+                                              class="btn btn-success another",
+                                              value="Confirm") }}
                                     </div>
                                 </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-info close{{ result["id"] }}delete"
-                                            data-dismiss="modal">Close
-                                    </button>
-                                    <button type="button" class="btn btn-success save{{ result["id"] }}delete">Confirm
-                                    </button>
-                                </div>
-                            </div>
+                            </form>
                         </div>
                     </div>
                 </td>

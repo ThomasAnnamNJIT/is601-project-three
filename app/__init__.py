@@ -35,7 +35,6 @@ def create_app():
     # Needed for CSRF protection of form submissions and WTF Forms
     # https://wtforms.readthedocs.io/en/3.0.x/
     csrf = CSRFProtect(app)
-
     app.register_blueprint(database)
     app.register_blueprint(auth)
     app.register_blueprint(admin)

@@ -1,6 +1,6 @@
 import os
 
-from flask import render_template, url_for, redirect, abort, Blueprint, current_app
+from flask import render_template, url_for, redirect, abort, Blueprint, current_app, request
 from flask_login import login_required, login_user, current_user, logout_user
 from werkzeug.utils import secure_filename
 
@@ -77,6 +77,13 @@ def dashboard():
 @auth.route("/register", methods=["GET", "POST"])
 def register():
     register_form = RegisterForm()
+
+    print(request.form)
+    print(register_form.username.data)
+
+    is_valid = register_form.validate_on_submit()
+
+    print(is_valid)
 
     if register_form.validate_on_submit():
         new_user = User(username=register_form.username.data, password=register_form.password.data)

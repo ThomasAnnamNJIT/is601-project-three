@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileRequired
-from wtforms import FileField, StringField, PasswordField, SubmitField, EmailField
+from wtforms import FileField, PasswordField, SubmitField, EmailField
 from wtforms.validators import InputRequired, Length, DataRequired
 
 
@@ -14,7 +14,8 @@ class RegisterForm(FlaskForm):
                           render_kw={"placeholder": "Username"})
     password = PasswordField(validators=[InputRequired(), Length(min=4, max=20)],
                              render_kw={"placeholder": "Password"})
-    about = StringField(validators=[InputRequired(), Length(min=10, max=100)], render_kw={"placeholder": "About"})
+    # TODO: Add this later
+    # about = StringField(validators=[InputRequired(), Length(min=10, max=100)], render_kw={"placeholder": "About"})
     submit = SubmitField("Register")
 
 
