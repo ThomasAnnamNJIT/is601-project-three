@@ -1,5 +1,6 @@
 from flask import Blueprint, render_template, url_for, redirect
 
+from app.auth.decorators import admin_required
 from app.db import db
 from app.admin.forms import DeleteForm, AddForm
 from app.db.models import User
@@ -8,6 +9,7 @@ admin = Blueprint("admin", __name__, template_folder="templates")
 
 
 @admin.route("/admin", methods=["GET", "POST"])
+@admin_required
 def index():
     delete_form = DeleteForm()
     add_form = AddForm()
@@ -23,6 +25,7 @@ def index():
 
 
 @admin.route("/admin/delete", methods=["POST"])
+@admin_required
 def delete():
 
     delete_form = DeleteForm()
@@ -37,6 +40,7 @@ def delete():
 
 
 @admin.route("/admin/create", methods=["POST"])
+@admin_required
 def create():
 
     add_form = AddForm()

@@ -1,6 +1,6 @@
 import os
 
-from flask import render_template, url_for, redirect, abort, Blueprint, current_app, request
+from flask import render_template, url_for, redirect, abort, Blueprint, current_app, flash
 from flask_login import login_required, login_user, current_user, logout_user
 from werkzeug.utils import secure_filename
 
@@ -22,7 +22,6 @@ def login():
     login_form = LoginForm()
 
     if login_form.validate_on_submit():
-        print("CASE ONE")
         user = User.query.filter_by(username=login_form.username.data).first()
         if user:
             # TODO: Look over this
@@ -78,18 +77,17 @@ def dashboard():
 def register():
     register_form = RegisterForm()
 
-    print(request.form)
-    print(register_form.username.data)
-
-    is_valid = register_form.validate_on_submit()
-
-    print(is_valid)
-
     if register_form.validate_on_submit():
         new_user = User(username=register_form.username.data, password=register_form.password.data)
+        new_user.about = register_form.about.data
         db.session.add(new_user)
         db.session.commit()
-        return redirect(url_for("auth.login"))
+        if new_user.id == 1:
+            new_user.is_admin = 1
+            db.session.add(new_user)
+            db.session.commit()
+        flash("Congratulations, you are now a registered user!", "success")
+        return redirect(url_for("auth.login"), 302)
 
     return render_template("register.html", form=register_form)
 

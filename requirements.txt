@@ -1,0 +1,10 @@
+Flask-Login
+Flask~=2.1.1
+Flask-SQLAlchemy
+Flask-WTF
+psycopg2
+WTForms~=3.0.1
+Flask-Cors
+Werkzeug~=2.1.1
+click~=8.1.2
+SQLAlchemy~=1.4.35
