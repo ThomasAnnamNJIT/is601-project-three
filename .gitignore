@@ -8,6 +8,8 @@ __pycache__
 .bash_history
 .env
 logs
-bin
-include
-lib
+uploads
+database
+bin/
+include/
+lib/
