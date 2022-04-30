@@ -26,7 +26,6 @@ def login():
     if login_form.validate_on_submit():
         user = User.query.filter_by(username=login_form.username.data).first()
         if user:
-            # flash("Welcome", 'success')
             user.authenticated = True
             db.session.add(user)
             db.session.commit()
@@ -64,15 +63,27 @@ def dashboard():
 
         user = User.query.filter_by(id=current_user.id).first()
 
+        pagination = Song.query.filter_by(user_id=current_user.id).paginate(1, 5, error_out=False)
+
         data = [{
             "id": song.id,
             "title": song.title,
             "artist": song.artist,
             "year": song.year,
             "genre": song.genre
-        } for song in user.songs]
+        } for song in pagination.items]
 
-        return render_template("dashboard.html", form=upload_form, data=data, username=user.username)
+        return render_template("dashboard.html",
+                               form=upload_form,
+                               data=data,
+                               username=user.username,
+                               pages=pagination.pages + 1,
+                               current_page=1,
+                               previous=pagination.prev_num,
+                               next=pagination.next_num,
+                               has_prev=pagination.has_prev,
+                               has_next=pagination.has_next
+                               )
 
     return redirect(url_for("auth.login"))
 
@@ -96,6 +107,32 @@ def register():
         return redirect(url_for("auth.login"), 302)
 
     return render_template("register.html", form=register_form)
+
+
+@auth.route("/songs", methods=["GET"], defaults={"page": 1})
+@auth.route('/songs/<int:page>', methods=["GET"])
+@login_required
+def get_songs(page):
+    upload_form = UploadForm()
+
+    user = User.query.filter_by(id=current_user.id).first()
+
+    pagination = Song.query.filter_by(user_id=current_user.id).paginate(page, 5, error_out=False)
+
+    data = [{
+        "id": song.id,
+        "title": song.title,
+        "artist": song.artist,
+        "year": song.year,
+        "genre": song.genre
+    } for song in pagination.items]
+
+    return render_template("dashboard.html", form=upload_form, data=data, username=user.username,
+                           pages=pagination.pages + 1, current_page=page,
+                           previous=pagination.prev_num,
+                           next=pagination.next_num,
+                           has_prev=pagination.has_prev,
+                           has_next=pagination.has_next)
 
 
 @auth.route("/logout")

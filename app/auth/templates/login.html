@@ -8,33 +8,41 @@
 </head>
 <body>
 <div class="container p-3">
-    <form class="card p-3 bg-light" method="POST" action="{{ url_for("auth.login") }}">
-        <h1 class="modal-title w-100 text-center" id="exampleModalLabel">Login</h1>
-        {{ form.hidden_tag() }}
-        <div class="row">
-            <div class="mb-3">
-                <label class="form-label">Username</label>
-                {{ form.username(class_="form-control", id="username", placeholder="Please enter your username", size=32) }}
-            </div>
+    <div class="row">
+        <div class="col">
+            <h1 class="modal-title w-100 text-center" id="exampleModalLabel">Song Application</h1>
+            <img src="static/images/SongTitle.png" width="100%" height="100%"/>
         </div>
-        <div class="row">
-            <div class="mb-3">
-                <label class="form-label">Password</label>
-                {{ form.password(class_="form-control", id="password", placeholder="Please enter your password", size=32) }}
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <a class="btn btn-secondary form-control btn-block" href="{{ url_for("auth.register") }}"
-                       role="button">Register</a>
+        <div class="col">
+            <form class="card p-3 bg-light" method="POST" action="{{ url_for("auth.login") }}">
+                <h1 class="modal-title w-100 text-center" id="exampleModalLabel">Login</h1>
+                {{ form.hidden_tag() }}
+                <div class="row">
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        {{ form.username(class_="form-control", id="username", placeholder="Please enter your username", size=32) }}
+                    </div>
                 </div>
-                <div class="col">
-                    <button type="submit" class="btn btn-primary form-control btn-block">Submit</button>
+                <div class="row">
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        {{ form.password(class_="form-control", id="password", placeholder="Please enter your password", size=32) }}
+                    </div>
                 </div>
-            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <a class="btn btn-secondary form-control btn-block" href="{{ url_for("auth.register") }}"
+                               role="button">Register</a>
+                        </div>
+                        <div class="col">
+                            <button type="submit" class="btn btn-primary form-control btn-block">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-    </form>
+    </div>
 </div>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
