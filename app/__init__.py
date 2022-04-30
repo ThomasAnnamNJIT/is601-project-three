@@ -15,6 +15,7 @@ from flask_cors import CORS
 from app.db.models import User
 from app.error_handlers import error_handlers
 from app.logging_config import log_con
+from app.user import users
 
 login_manager = flask_login.LoginManager()
 
@@ -38,6 +39,7 @@ def create_app():
     app.register_blueprint(database)
     app.register_blueprint(auth)
     app.register_blueprint(admin)
+    app.register_blueprint(users)
     # these load functionality without a web interface
     app.register_blueprint(log_con)
     app.register_blueprint(error_handlers)

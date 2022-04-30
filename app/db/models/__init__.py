@@ -33,6 +33,11 @@ class User(db.Model, UserMixin):
     is_admin = db.Column(db.Boolean(), nullable=False, server_default="0")
     songs = db.relationship("Song", back_populates="user", cascade="all, delete")
 
+    def __init__(self, username, password, about):
+        self.username = username
+        self.password = password
+        self.about = about
+
     def is_authenticated(self):
         return self.authenticated
 
