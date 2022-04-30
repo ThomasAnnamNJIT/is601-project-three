@@ -1,6 +1,6 @@
 import os
 
-from flask import render_template, url_for, redirect, Blueprint, current_app, flash
+from flask import render_template, url_for, redirect, Blueprint, current_app
 from flask_login import login_required, login_user, current_user, logout_user
 from werkzeug.utils import secure_filename
 
@@ -24,7 +24,7 @@ def login():
     login_form = LoginForm()
 
     if login_form.validate_on_submit():
-        user = User.query.filter_by(username=login_form.username.data).first()
+        user = User.query.filter_by(username=login_form.username.data, password=login_form.password.data).first()
         if user:
             user.authenticated = True
             db.session.add(user)
@@ -54,8 +54,6 @@ def dashboard():
                          title=song["title"],
                          year=song["year"],
                          genre=song["genre"])
-                s.year = song["year"]
-                s.genre = song["genre"]
                 s.user = current_user
                 db.session.add(s)
 
@@ -99,11 +97,10 @@ def register():
         db.session.add(new_user)
         db.session.commit()
         if new_user.id == 1:
-            new_user.is_admin = 1
-            new_user.authenticated = 1
-            db.session.add(new_user)
-            db.session.commit()
-        flash("Congratulations, you are now a registered user!", "success")
+            new_user.is_admin = True
+        new_user.authenticated = True
+        db.session.add(new_user)
+        db.session.commit()
         return redirect(url_for("auth.login"), 302)
 
     return render_template("register.html", form=register_form)

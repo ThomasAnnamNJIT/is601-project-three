@@ -1,5 +1,7 @@
 """This test the admin page"""
 
+from app.db.models import User
+
 
 def test_admin_page(client):
     """This makes a request to the admin page"""
@@ -29,7 +31,12 @@ def test_admin_can_delete(client):
     response = client.get("/admin")
     assert response.status_code == 200
 
+    users = User.query.all()
+    assert len(users) == 2
+
     response = client.post("/users/delete",
-                           data=dict(username="test1@gmail.com", password="test",
-                                     about="This is just a test for about me!!!"))
+                           data=dict(username="test2@gmail.com"))
     assert response.status_code == 302
+
+    users = User.query.all()
+    assert len(users) == 1
