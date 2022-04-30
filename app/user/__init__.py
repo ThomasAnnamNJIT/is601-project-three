@@ -4,7 +4,7 @@ from flask_login import login_required, current_user
 from app.auth.decorators import admin_required
 from app.db import db
 from app.db.models import User
-from app.user.forms import EditForm, DeleteForm, AddForm
+from app.user.forms import EditForm, DeleteForm
 
 users = Blueprint("users", __name__, template_folder="templates")
 
