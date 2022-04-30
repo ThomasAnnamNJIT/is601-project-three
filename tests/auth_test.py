@@ -71,12 +71,12 @@ def test_file_upload(client):
     client.post("/login", data=dict(username="test@gmail.com", password="test"))
 
     root = os.path.dirname(os.path.abspath(__file__))
-    csv_path = os.path.join(root, "data/random.csv")
+    csv_path = os.path.join(root, "data/testOne.csv")
 
     with open(csv_path, "rb") as csv_file:
         my_file = FileStorage(
             stream=csv_file,
-            filename="random.csv",
+            filename="testOne.csv",
             content_type="text/csv"
         )
 
