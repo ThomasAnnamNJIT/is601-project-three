@@ -16,9 +16,11 @@ class Song(db.Model):
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"))
     user = relationship("User", back_populates="songs", uselist=False)
 
-    def __init__(self, title, artist):
+    def __init__(self, title, artist, year, genre):
         self.title = title
         self.artist = artist
+        self.year = year
+        self.genre = genre
 
 
 class User(db.Model, UserMixin):

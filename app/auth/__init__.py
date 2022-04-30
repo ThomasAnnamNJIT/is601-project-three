@@ -24,7 +24,6 @@ def login():
     if login_form.validate_on_submit():
         user = User.query.filter_by(username=login_form.username.data).first()
         if user:
-            # TODO: Look over this
             # flash("Welcome", 'success')
             user.authenticated = True
             db.session.add(user)
@@ -50,7 +49,10 @@ def dashboard():
             songs = read_csv(filepath)
 
             for song in songs:
-                s = Song(artist=song["artist"], title=song["title"])
+                s = Song(artist=song["artist"],
+                         title=song["title"],
+                         year=song["year"],
+                         genre=song["genre"])
                 s.year = song["year"]
                 s.genre = song["genre"]
                 s.user = current_user
@@ -85,24 +87,13 @@ def register():
         db.session.commit()
         if new_user.id == 1:
             new_user.is_admin = 1
+            new_user.authenticated = 1
             db.session.add(new_user)
             db.session.commit()
         flash("Congratulations, you are now a registered user!", "success")
         return redirect(url_for("auth.login"), 302)
 
     return render_template("register.html", form=register_form)
-
-
-@auth.route("/upload", methods=["GET", "POST"])
-def upload():
-    form = UploadForm()
-
-    if form.validate_on_submit():
-        filename = secure_filename(form.file.data.filename)
-        form.file.data.save('uploads/' + filename)
-        return redirect(url_for('upload'))
-
-    return render_template("upload.html", form=form)
 
 
 @auth.route("/logout")
@@ -114,6 +105,4 @@ def logout():
     db.session.add(user)
     db.session.commit()
     logout_user()
-    # TODO: Look over this
-    # flash("Welcome", "success")
     return redirect(url_for("auth.login"))

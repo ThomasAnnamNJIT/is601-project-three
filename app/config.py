@@ -26,7 +26,10 @@ class DevelopmentConfig(Config):
 
 
 class TestingConfig(Config):
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
     TESTING = True
     SQLALCHEMY_DATABASE_URI = "sqlite:///:memory:"
     SESSION_COOKIE_SECURE = False
     DEBUG = True
+    WTF_CSRF_ENABLED = False
+    UPLOAD_FOLDER = os.getenv('UPLOAD_FOLDER', BASE_DIR + '/uploads')
