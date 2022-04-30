@@ -1,6 +1,6 @@
 import os
 
-from flask import render_template, url_for, redirect, abort, Blueprint, current_app, flash
+from flask import render_template, url_for, redirect, Blueprint, current_app, flash
 from flask_login import login_required, login_user, current_user, logout_user
 from werkzeug.utils import secure_filename
 
@@ -14,7 +14,9 @@ auth = Blueprint("auth", __name__, template_folder="templates")
 
 @auth.route("/", methods=["GET"])
 def home():
-    return render_template("index.html")
+    login_form = LoginForm()
+    return render_template("login.html", form=login_form)
+    return render_template("login.html")
 
 
 @auth.route("/login", methods=["GET", "POST"])
@@ -30,7 +32,7 @@ def login():
             db.session.commit()
             login_user(user)
             return redirect(url_for("auth.dashboard"))
-        abort(404, "NOT FOUND!!!!!!!")
+        return render_template("404.html")
 
     return render_template("login.html", form=login_form)
 

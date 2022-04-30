@@ -1,4 +1,6 @@
 """This test the homepage"""
+import os
+
 from flask_login import current_user
 from werkzeug.datastructures import FileStorage
 
@@ -9,7 +11,8 @@ def test_home_page(client):
     """This makes a request to the home page"""
     response = client.get("/")
     assert response.status_code == 200
-    assert b'href="/login"' in response.data
+    assert b'class="btn btn-primary form-control btn-block"' in response.data
+    assert b'type="submit"' in response.data
     assert b'href="/register"' in response.data
 
 
@@ -67,8 +70,10 @@ def test_file_upload(client):
     # Newly registered user is able to log in
     client.post("/login", data=dict(username="test@gmail.com", password="test"))
 
-    with open("/Users/thomasannam/IS601Projects/"
-              "is601-project-three/tests/data/random.csv", "rb") as csv_file:
+    root = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(root, "data/random.csv")
+
+    with open(csv_path, "rb") as csv_file:
         my_file = FileStorage(
             stream=csv_file,
             filename="random.csv",
