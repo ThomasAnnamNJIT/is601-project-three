@@ -1,6 +1,6 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/ThomasAnnamNJIT/is601-project-three/actions/workflows/prod.yml/badge.svg)](https://github.com/ThomasAnnamNJIT/is601-project-three/actions/workflows/prod.yml)
+[![Production Workflow](https://github.com/ThomasAnnamNJIT/is601-project-three/actions/workflows/production.yml/badge.svg)](https://github.com/ThomasAnnamNJIT/is601-project-three/actions/workflows/production.yml)
 
 * [Production Deployment](https://thomasannam-is601-prod.herokuapp.com)
 
