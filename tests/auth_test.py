@@ -11,7 +11,8 @@ def test_home_page(client):
     """This makes a request to the home page"""
     response = client.get("/")
     assert response.status_code == 200
-    assert b'href="/login"' in response.data
+    assert b'class="btn btn-primary form-control btn-block"' in response.data
+    assert b'type="submit"' in response.data
     assert b'href="/register"' in response.data
 
 
