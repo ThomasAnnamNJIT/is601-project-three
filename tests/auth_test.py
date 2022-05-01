@@ -41,7 +41,8 @@ def test_user_registration(client):
     assert user.id == 1
     # Since the user id is 1, is_admin should be true
     assert user.is_admin is True
-    assert user.authenticated is True
+    # User has not logged in yet
+    assert user.authenticated is False
     assert user.about == "This is just a test for about me!!!"
     assert user.password == "test"
 
@@ -105,6 +106,12 @@ def test_dashboard_is_denied(client):
 
     response = client.post("/dashboard")
     assert response.status_code == 302
+
+    assert len(User.query.all())
+
+    user = User.query.filter_by(username="test@gmail.com").first()
+
+    assert user.authenticated is False
 
 
 def test_csv_file_cannot_be_uploaded(client):

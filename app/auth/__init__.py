@@ -98,7 +98,6 @@ def register():
         db.session.commit()
         if new_user.id == 1:
             new_user.is_admin = True
-        new_user.authenticated = True
         db.session.add(new_user)
         db.session.commit()
         return redirect(url_for("auth.login"), 302)
