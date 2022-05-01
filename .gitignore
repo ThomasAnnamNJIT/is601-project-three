@@ -13,3 +13,5 @@ database
 bin/
 include/
 lib/
+uploads
+logs
