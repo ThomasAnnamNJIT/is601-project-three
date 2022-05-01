@@ -70,6 +70,10 @@ def test_file_upload(client):
     # Newly registered user is able to log in
     client.post("/login", data=dict(username="test@gmail.com", password="test"))
 
+    # New user can access the dashboard
+    response = client.get("/dashboard")
+    assert response.status_code == 200
+
     root = os.path.dirname(os.path.abspath(__file__))
     csv_path = os.path.join(root, "data/testOne.csv")
 
@@ -90,3 +94,39 @@ def test_file_upload(client):
         user = User.query.filter_by(username="test@gmail.com").first()
         assert user
         assert len(user.songs)
+
+
+def test_dashboard_is_denied(client):
+    """This makes a request to see if a user is denied access when not logged in"""
+
+    client.post("/register",
+                data=dict(username="test@gmail.com", password="test",
+                          about="This is just a test for about me!!!"))
+
+    response = client.post("/dashboard")
+    assert response.status_code == 302
+
+
+def test_csv_file_cannot_be_uploaded(client):
+    """This makes a request to see if a user cannot upload a csv file when not logged in"""
+
+    client.post("/register",
+                data=dict(username="test@gmail.com", password="test",
+                          about="This is just a test for about me!!!"))
+
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data/testOne.csv")
+
+    with open(path, "rb") as csv_file:
+        my_file = FileStorage(
+            stream=csv_file,
+            filename="test.csv",
+            content_type="text/csv"
+        )
+
+        client.post("/dashboard",
+                    data={"file": my_file},
+                    content_type="multipart/form-data")
+
+        user = User.query.filter_by(username="test@gmail.com").first()
+        assert user
+        assert len(user.songs) == 0
