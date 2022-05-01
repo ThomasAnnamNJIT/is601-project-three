@@ -9,8 +9,8 @@ from app.db import db
 class Song(db.Model):
     __tablename__ = "songs"
     id = db.Column(db.Integer, primary_key=True)
-    title = db.Column(db.String(80), nullable=False, unique=True)
-    artist = db.Column(db.String(80), nullable=False)
+    title = db.Column(db.String(80), nullable=False, unique=False)
+    artist = db.Column(db.String(80), nullable=False, unique=False)
     year = db.Column(db.Integer, nullable=False)
     genre = db.Column(db.String(80), nullable=False)
     user_id = db.Column(db.Integer, db.ForeignKey("users.id"))
