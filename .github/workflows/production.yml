@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: thomasannam/is601-flask-auth
+          images: thomasannam/is601-project-three
 
       - name: Build and push
         uses: docker/build-push-action@v2
